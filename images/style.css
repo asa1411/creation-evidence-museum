@@ -1,13 +1,21 @@
-body .gallery {
-    margin: 5px;
-    float: left;
-    width: 150px;
+body .journal {
+  margin: 5px;
+  float: left;
+  width: 300px;
+  border: 1px solid black;
 }
-body .gallery img {
-    width: 100%;
-    height: auto;
+body .journal img {
+  width: 100%;
+  height: auto;
 }
 div .desc {
-    padding: 15px;
-    text-align: center;
+  height: 50px;
+  text-align: center;
+}
+@media screen and (max-width: 650px) {
+  body .journal {
+    margin: 5px;
+    float: left;
+    width: 500px;
+  }
 }
